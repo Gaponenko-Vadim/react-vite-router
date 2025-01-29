@@ -3,18 +3,13 @@ import Layout from '../../containers/Layout';
 import Section from '../../containers/Section';
 import Card from '../../containers/Card';
 import LoginForm from '../../screens/LoginForm';
-
-type LoginPageProps = {
-	title: string;
-	onSubmit: (email: string, password: string) => void;
-};
+import { LoginPageProps } from './types';
 
 const LoginPage: React.FC<LoginPageProps> = ({ title, onSubmit }) => {
 	return (
 		<Layout>
 			<Section>
-				<Card>
-					<h2>{title}</h2>
+				<Card title={title}>
 					<LoginForm onSubmit={onSubmit} />
 				</Card>
 			</Section>
