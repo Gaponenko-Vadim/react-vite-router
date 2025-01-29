@@ -2,29 +2,14 @@ import React from 'react';
 import Anchor from '../../components/Anchor';
 import { HeaderProps } from './type';
 import style from './style.module.scss';
-
-type MenuItem = {
-	href: string;
-	label: string;
-};
+import Menu from '@/components/Menu/Menu';
+import menuItems from '@/assets/menuItems';
 
 const Header: React.FC<HeaderProps> = ({ children }) => {
-	const menuItems: MenuItem[] = [
-		{ href: '/', label: 'Home' },
-		{ href: '/login', label: 'Login' },
-		{ href: '/register', label: 'Register' },
-	];
-
 	return (
 		<header className={style.header}>
 			<div className={style.logo}>Logo</div>
-			<nav className={style.menu}>
-				{menuItems.map((item) => (
-					<Anchor key={item.href} href={item.href}>
-						{item.label}
-					</Anchor>
-				))}
-			</nav>
+			<Menu items={menuItems} />
 			{children && <div className={style.additionalContent}>{children}</div>}
 		</header>
 	);
