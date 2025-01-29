@@ -1,0 +1,33 @@
+.button {
+	font-family: 'Nunito Sans', 'Helvetica Neue', sans-serif;
+	padding: 0.5em 1em;
+	color: white;
+	border: 2px solid transparent;
+	border-radius: 3px;
+	cursor: pointer;
+
+	&--one {
+		background-color: #1890ff;
+	}
+
+	&--two {
+		background-color: #00aaff;
+	}
+
+	&--small {
+		font-size: 12px;
+	}
+
+	&--medium {
+		font-size: 14px;
+	}
+
+	&--large {
+		font-size: 16px;
+	}
+
+	&:disabled {
+		opacity: 0.5;
+		cursor: not-allowed;
+	}
+}

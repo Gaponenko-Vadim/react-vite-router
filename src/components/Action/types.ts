@@ -1,5 +1,5 @@
 export type ActionProps = {
-	onClick?: () => void;
+	onClick?: (e: React.MouseEvent<HTMLElement>) => void;
 	children: React.ReactNode;
 	disabled?: boolean;
 	className?: string;
