@@ -1,6 +1,6 @@
 import React from 'react';
 import { SectionProps } from './types';
-import styles from './styles.module.scss'; // Импортируем стили, если они нужны
+import styles from './styles.module.scss';
 
 const Section: React.FC<SectionProps> = ({ children }) => {
 	return (
