@@ -1,0 +1,11 @@
+.login-btn {
+	background-color: $button-background; // Используем вашу переменную для фона
+	color: #fff; // Белый текст
+	padding: $spacing-medium $spacing-large; // Используем ваши переменные для отступов
+	border: none;
+	border-radius: $border-radius; // Используем вашу переменную для скругления углов
+	font-size: $font-size-base;
+	font-family: $font-family;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}

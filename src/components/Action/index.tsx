@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { ActionProps } from './types';
 import style from './action.module.scss';
 
-export const Action = ({
+const Action = ({
 	onClick,
 	children,
 	disabled = false,
@@ -50,3 +50,5 @@ export const Action = ({
 		</button>
 	);
 };
+
+export default Action;
