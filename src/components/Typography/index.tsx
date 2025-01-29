@@ -12,3 +12,7 @@ export const Text: React.FC<
 > = ({ value, as = 'p' }) => {
 	return React.createElement(as, {}, value);
 };
+
+const Typography = { Title, Text };
+
+export default Typography;

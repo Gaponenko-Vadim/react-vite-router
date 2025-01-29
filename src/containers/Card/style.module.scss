@@ -1,0 +1,23 @@
+@import '../../scss/variables';
+.card {
+	background-color: #fff;
+	border-radius: $border-radius;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	padding: $spacing-medium;
+	width: 300px;
+}
+
+.card-section {
+	margin-bottom: $spacing-medium;
+}
+
+.card-section-title {
+	font-size: $font-size-large;
+	font-weight: bold;
+	margin-bottom: $spacing-small;
+}
+
+.card-section-content {
+	font-size: $font-size-base;
+	color: $text-color;
+}

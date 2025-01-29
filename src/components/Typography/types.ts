@@ -1,4 +1,4 @@
 export type TypographyProps = {
-	value: string;
+	value: React.ReactNode;
 	variant?: 'title' | 'text';
 };
