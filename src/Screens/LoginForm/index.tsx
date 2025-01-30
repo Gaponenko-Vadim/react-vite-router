@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Form from '../../containers/Form';
 import Input from '../../components/Input';
 import Action from '../../components/Action';
-import style from './style.module.scss';
+import style from './styles.module.scss';
 import { LoginFormProps } from './types';
 
 const LoginForm: React.FC<LoginFormProps> = ({ onSubmit }) => {

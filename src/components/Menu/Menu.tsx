@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './style.module.scss';
+import style from './styles.module.scss';
 import Anchor from '../Anchor';
 import { MenuProps } from './types';
 

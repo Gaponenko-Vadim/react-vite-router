@@ -1,4 +1,4 @@
-import style from './style.module.scss';
+import style from './styles.module.scss';
 import React from 'react';
 import { CardProps } from './type';
 import Typography from '@/components/Typography';

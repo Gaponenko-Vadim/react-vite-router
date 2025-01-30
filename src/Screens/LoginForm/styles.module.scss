@@ -1,0 +1,13 @@
+@import '../../scss/variables';
+
+.login-btn {
+	background-color: $button-background;
+	color: #fff;
+	padding: $spacing-medium $spacing-large;
+	border: none;
+	border-radius: $border-radius;
+	font-size: $font-size-base;
+	font-family: $font-family;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}

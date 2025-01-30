@@ -5,7 +5,7 @@ import Action from '../../components/Action';
 import Modal from '../../containers/Modal';
 import LoginForm from '../../screens/LoginForm';
 import RegisterForm from '../../screens/RegisterForm';
-import style from './style.module.scss';
+import style from './styles.module.scss';
 
 const MainPage: React.FC = () => {
 	const [showLoginModal, setShowLoginModal] = useState(false);

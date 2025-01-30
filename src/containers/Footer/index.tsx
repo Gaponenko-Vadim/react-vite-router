@@ -1,6 +1,6 @@
 import React from 'react';
 import { FooterProps } from './type';
-import style from './style.module.scss';
+import style from './styles.module.scss';
 import Menu from '@/components/Menu/Menu';
 import menuItems from '@/assets/menuItems';
 

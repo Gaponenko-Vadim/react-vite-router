@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Form from '../../containers/Form';
 import Input from '../../components/Input';
 import Action from '../../components/Action';
-import style from './style.module.scss';
+import style from './styles.module.css';
 import { RegisterFormProps } from './types';
 
 const RegisterForm: React.FC<RegisterFormProps> = ({ onSubmit }) => {
